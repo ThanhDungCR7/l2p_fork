@@ -17,7 +17,7 @@
 
 import os
 
-from typing_extensions import EllipsisType
+
 from absl import app
 from absl import flags
 from absl import logging
