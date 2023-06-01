@@ -26,7 +26,7 @@ import jax.numpy as jnp
 
 Conv1x1 = functools.partial(nn.Conv, kernel_size=(1, 1), use_bias=False)
 Conv3x3 = functools.partial(nn.Conv, kernel_size=(3, 3), use_bias=False)
-
+ 
 
 class ResNetBlock(nn.Module):
   """ResNet block without bottleneck used in ResNet-18 and ResNet-34."""
