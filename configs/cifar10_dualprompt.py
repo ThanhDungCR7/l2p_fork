@@ -24,7 +24,7 @@ def get_config():
   config.model_name = "ViT-B_16"  # support various sized ViT models
   config.per_device_batch_size = 24
 
-  config.dataset = "cifar100"
+  config.dataset = "cifar10"
   # Gaussian schedule for cifar100
   config.gaussian_schedule = False
   config.gaussian_mode = ""
